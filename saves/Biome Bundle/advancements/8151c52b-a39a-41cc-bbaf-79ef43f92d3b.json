@@ -1,0 +1,50 @@
+{
+  "triumph:vanilla/recipes/brewing/speckled_melon": {
+    "criteria": {
+      "has_the_recipe": "2021-02-24 16:37:14 -0600"
+    },
+    "done": true
+  },
+  "triumph:vanilla/recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_the_recipe": "2021-02-24 16:37:14 -0600"
+    },
+    "done": true
+  },
+  "triumph:vanilla/recipes/brewing/glass_bottle": {
+    "criteria": {
+      "has_the_recipe": "2021-02-24 16:37:14 -0600"
+    },
+    "done": true
+  },
+  "triumph:vanilla/recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_the_recipe": "2021-02-24 16:37:14 -0600"
+    },
+    "done": true
+  },
+  "triumph:example/root": {
+    "criteria": {
+      "location": "2021-02-24 16:37:14 -0600"
+    },
+    "done": true
+  },
+  "triumph:vanilla/recipes/brewing/cauldron": {
+    "criteria": {
+      "has_the_recipe": "2021-02-24 16:37:14 -0600"
+    },
+    "done": true
+  },
+  "triumph:vanilla/adventure/adventuring_time": {
+    "criteria": {
+      "swampland": "2021-02-24 16:37:14 -0600"
+    },
+    "done": false
+  },
+  "triumph:vanilla/recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_the_recipe": "2021-02-24 16:37:14 -0600"
+    },
+    "done": true
+  }
+}

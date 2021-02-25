@@ -1,0 +1,20 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "tinkersforging:book": {
+      "viewedEntries": [
+        "tinkersforging:temperature/charcoal_forge",
+        "tinkersforging:temperature/melting_points",
+        "tinkersforging:temperature/brick_forge"
+      ],
+      "bookmarks": [],
+      "history": [
+        "tinkersforging:temperature/melting_points",
+        "tinkersforging:temperature/brick_forge",
+        "tinkersforging:temperature/charcoal_forge"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

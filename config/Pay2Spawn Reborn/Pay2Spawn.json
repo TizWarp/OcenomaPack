@@ -1,0 +1,26 @@
+{
+  "READ ME": [
+      "Format for blocks section is <block> <count> <delayticks> <bits|sub> <amount of bits or tier of sub>",
+      "Format for items section is <item> <count> <delayticks> <bits|sub> <amount of bits or tier of sub>",
+      "Format for commands section is <runAsConsole true|false> <delayticks> <bits|sub> <amount of bits or tier of sub> <command>",
+      "Format for mobs section is <mob> <count> <delayticks> <bits|sub> <amount of bits or tier of sub> [x offset] [y offset] [z offset]",
+      "Use /dumpmobs in game to dump the list of mob ids to config/Pay2Spawn/mobs.txt on the server (same as client if single player)"
+      "Prime subs and tier one ($4.99) subscriptions are treated as the same"
+  ],
+
+  "Put yer twitch name here": {
+      "ign": "Put yer minecraft name here",
+      "blocks": [
+          "minecraft:dirt 5 100 bits 1"
+      ],
+      "items": [
+          "minecraft:diamond 16 120 bits 1"
+      ],
+      "commands": [
+          "true 140 bits 1 say Hi, %ign%"
+      ],
+      "mobs": [
+          "minecraft:creeper 100 160 sub 3 0 5 0"
+      ]
+  }
+}

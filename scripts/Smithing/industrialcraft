@@ -1,0 +1,34 @@
+import mods.artisanworktables.builder.RecipeBuilder;
+import mods.artisanintegrations.requirement.Reskillable
+
+#Basic Machine Casing
+
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<ore:platePlatinum>, <ore:platePlatinum>, <ore:platePlatinum>],
+    [<ore:platePlatinum>, <immersiveengineering:material:9>, <ore:platePlatinum>],
+    [<ore:platePlatinum>, <thermalfoundation:material:326>, <ore:platePlatinum>]])
+  .setFluid(<liquid:lava> * 2000)
+  .setSecondaryIngredients([<ic2:crafting:1>])
+  .addTool(<ore:artisansHammer>, 20)
+  .addTool(<ore:artisansPliers>, 15)
+  .addTool(<ore:artisansSolderer>, 10)
+  .addRequirement(Reskillable.add("compatskills:engineering|40"))
+  .addOutput(<ic2:resource:12>)
+  .create();
+
+#Iron Furnace
+
+  RecipeBuilder.get("blacksmith")
+    .setShaped([
+      [<ore:blockSheetmetalIron>, <ore:plateIron>, <ore:blockSheetmetalIron>],
+      [<ore:plateIron>, <minecraft:furnace>, <ore:plateIron>],
+      [<ore:blockSheetmetalIron>, <ore:plateIron>, <ore:blockSheetmetalIron>]])
+    .setFluid(<liquid:lava> * 1000)
+    .addTool(<ore:artisansHammer>, 20)
+    .addTool(<ore:artisansPliers>, 10)
+    .addRequirement(Reskillable.add("compatskills:engineering|40"))
+    .addOutput(<ic2:te:46>)
+    .create();
+
+#r

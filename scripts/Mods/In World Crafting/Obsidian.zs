@@ -1,0 +1,1 @@
+mods.inworldcrafting.FluidToItem.transform(<midnight:trenchstone>, <liquid:dark_water>, [<midnight:miasma_surface>]);

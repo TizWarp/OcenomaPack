@@ -1,0 +1,14 @@
+import mods.artisanworktables.builder.RecipeBuilder;
+import mods.artisanintegrations.requirement.Reskillable
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [null, <ic2:cable:4>.withTag({type: 4 as byte, insulation: 1 as byte}), null],
+    [<ic2:casing:6>, <ic2:fluid_cell>, <ic2:casing:6>],
+    [<ic2:casing:6>, <ic2:fluid_cell>, <ic2:casing:6>]])
+  .setFluid(<liquid:redstone> * 1000)
+  .addTool(<ore:artisansDriver>, 24)
+  .addTool(<ore:artisansSolderer>, 16)
+  .addRequirement(Reskillable.add("compatskills:engineering|31"))
+  .addOutput(<ic2:re_battery:26>.withTag({}))
+  .create();

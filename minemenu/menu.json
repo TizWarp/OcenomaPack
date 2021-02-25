@@ -1,0 +1,134 @@
+{
+  "main": {
+    "0": {
+      "title": "Night",
+      "icon": {
+        "name": "minecraft:torch",
+        "damage": 0
+      },
+      "action": {
+        "command": {
+          "command": "/time set night",
+          "clipboard": false
+        }
+      }
+    },
+    "1": {
+      "title": "Day",
+      "icon": {
+        "name": "minecraft:double_plant",
+        "damage": 0
+      },
+      "action": {
+        "command": {
+          "command": "/time set day",
+          "clipboard": false
+        }
+      }
+    },
+    "2": {
+      "title": "Night Vision",
+      "icon": {
+        "name": "minecraft:potion",
+        "damage": 0
+      },
+      "action": {
+        "command": {
+          "command": "/effect TizWarp minecraft:night_vision 1000000 255 true",
+          "clipboard": false
+        }
+      }
+    },
+    "3": {
+      "title": "Strength",
+      "icon": {
+        "name": "minecraft:diamond_sword",
+        "damage": 0
+      },
+      "action": {
+        "command": {
+          "command": "/effect TizWarp minecraft:strength 1000000 255 true",
+          "clipboard": false
+        }
+      }
+    },
+    "4": {
+      "title": "Clear Effects",
+      "icon": {
+        "name": "minecraft:milk_bucket",
+        "damage": 0
+      },
+      "action": {
+        "command": {
+          "command": "/effect TizWarp clear",
+          "clipboard": false
+        }
+      }
+    },
+    "5": {
+      "title": "Resistance",
+      "icon": {
+        "name": "minecraft:diamond_chestplate",
+        "damage": 0
+      },
+      "action": {
+        "command": {
+          "command": "/effect TizWarp minecraft:resistance 1000000 255 true",
+          "clipboard": false
+        }
+      }
+    },
+    "6": {
+      "title": "Clear Inventory",
+      "icon": {
+        "name": "minecraft:glass",
+        "damage": 0
+      },
+      "action": {
+        "command": {
+          "command": "/clear",
+          "clipboard": false
+        }
+      }
+    },
+    "7": {
+      "title": "Spectator",
+      "icon": {
+        "name": "minecraft:ender_eye",
+        "damage": 0
+      },
+      "action": {
+        "command": {
+          "command": "/gamemode 3",
+          "clipboard": false
+        }
+      }
+    },
+    "8": {
+      "title": "Survival",
+      "icon": {
+        "name": "minecraft:crafting_table",
+        "damage": 0
+      },
+      "action": {
+        "command": {
+          "command": "/gamemode 0",
+          "clipboard": false
+        }
+      }
+    },
+    "9": {
+      "title": "Creative",
+      "icon": {
+        "name": "minecraft:command_block",
+        "damage": 0
+      },
+      "action": {
+        "command": {
+          "command": "/gamemode 1",
+          "clipboard": false
+        }
+      }
+    }
+  }
+}

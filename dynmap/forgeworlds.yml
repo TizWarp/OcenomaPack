@@ -1,0 +1,66 @@
+%YAML 1.1
+---
+worlds:
+-   sealevel: 63
+    nether: false
+    name: Biome Bundle
+    the_end: false
+    title: Biome Bundle/overworld
+    height: 256
+-   sealevel: 80
+    nether: false
+    name: DIM-23
+    the_end: false
+    title: Biome Bundle/midnight
+    height: 256
+-   sealevel: 63
+    nether: false
+    name: DIM66
+    the_end: false
+    title: Biome Bundle/EREBUS
+    height: 256
+-   sealevel: 63
+    nether: false
+    name: DIM1
+    the_end: true
+    title: Biome Bundle/the_end
+    height: 256
+-   sealevel: 63
+    nether: false
+    name: DIM2
+    the_end: false
+    title: Biome Bundle/planet
+    height: 256
+-   sealevel: 63
+    nether: false
+    name: DIM69
+    the_end: false
+    title: Biome Bundle/atum
+    height: 256
+-   sealevel: 63
+    nether: true
+    name: DIM-1
+    the_end: false
+    title: Biome Bundle/the_nether
+    height: 256
+-   sealevel: 63
+    nether: false
+    name: DIM424
+    the_end: false
+    title: Biome Bundle/theaurorian
+    height: 256
+-   sealevel: 63
+    nether: false
+    name: New World
+    the_end: false
+    title: New World/overworld
+    height: 256
+-   sealevel: 63
+    nether: false
+    name: DIM17
+    the_end: false
+    title: New World/atum
+    height: 256
+isMCPC: false
+useSaveFolderAsName: true
+maxWorldHeight: 256
